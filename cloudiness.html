@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--<style>
+      img{ width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;}
+    </style>-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latitude Vs. Temperature </title>
+    <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+       
+    <div class="navigation">
+      <nav class="navbar navbar-expand-md navbar-light">
+     
+        <a class="navbar-brand" style="color: #0BADA6;" href="index.html">Latitude</a>
+     
+   
+        <!-- Collapse button -->
+        <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Drop down -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+  
+          </ul>
+          
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+
+            <!-- First Row -->
+            <div class="row">
+    
+                <div class="col-md-8 pad top"> <br>
+    
+                    <h1>Latitude vs. Cloudiness</h1> <br>
+    
+                    <div class="pull-left">
+                        <img src="Images/LatvsCloudiness.png" alt="Latitude vs. Cloudiness">
+                    </div>
+    
+                </div>
+                <!-- 8 Columns -->
+    
+                <div class="col-md-4 pad top"> <br>
+    
+                    <h3>Observations</h3> <br>
+    
+                    <div class="pull-right">
+                        <p>The process selected 546 unique cities. There seemed to be no particular correlation between latitude and the cloudiness a city experienced, as cloudiness was fairly evenly distributed. 
+                            It is interesting to note that the two highest clusters regarding cloudiness were around 0% and 100%, followed by approx 78% and 40%. </p>
+                    </div>
+    
+                </div>
+                <!-- 4 Columns -->
+    
+            </div>
+            <!-- Row -->
+    
+        </div>
+        <!-- Container -->
+    
+    </body>

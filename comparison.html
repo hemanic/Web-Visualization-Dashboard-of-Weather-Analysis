@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization-Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+
+       
+    <div class="navigation">
+            <nav class="navbar navbar-expand-md navbar-light">
+           
+              <a class="navbar-brand" style="color: #0BADA6;" href="index.html">Latitude</a>
+           
+         
+              <!-- Collapse button -->
+              <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Drop down -->
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                  </li>
+        
+                </ul>
+                
+              </div>
+            </nav>
+          </div>
+
+    
+    <div class="container">
+        <h1>Comparisons: Latitude vs. X</h1> <br>
+
+        <!-- First Row -->
+        <div class="row">
+
+            <div class="col-md-6 pad top"> <br>
+
+                <div class="pull-left">
+                    <h3>vs. Max Temperature</h3>
+                    <a target="_blank" href="temperature.html"><img src="Images/LatvsTemp.png" alt="vs. Max Temperature" width="100%" height="100%"></a>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 pad top"> <br>
+
+                <div class="pull-left">
+                    <h3>vs. Humidity</h3>
+                    <a target="_blank" href="humidity.html"><img src="Images/LatvsHumidity.png" alt="vs. Humidity" width="100%" height="100%"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 pad top"> <br>
+
+                <div class="pull-left">
+                    <h3>vs. Cloudiness</h3>
+                    <a target="_blank" href="cloudiness.html"><img src="Images/LatvsCloudiness.png" alt="vs. Cloudiness" width="100%" height="100%"></a>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 pad top"> <br>
+
+                <div class="pull-left">
+                    <h3>vs. Wind Speed</h3>
+                    <a target="_blank" href="wind_speed.html"><img src="Images/LatvsWind.png" alt="vs. Wind Speed" width="100%" height="100%"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
